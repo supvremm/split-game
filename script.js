@@ -10,7 +10,7 @@ if (optionOne) {
 const optionTwo = document.getElementById("option-two");
 if (optionTwo) {
   optionTwo.addEventListener("click", () => {
-    alert("You have chosen to KILL!");
+    alert("You have chosen to MARRY!");
   });
 } else {
   console.error("Element with ID 'option-two' not found.");
@@ -19,7 +19,7 @@ if (optionTwo) {
 const optionThree = document.getElementById("option-three");
 if (optionThree) {
   optionThree.addEventListener("click", () => {
-    alert("You have chosen to MARRY!");
+    alert("You have chosen to KILL!");
   });
 } else {
   console.error("Element with ID 'option-three' not found.");
