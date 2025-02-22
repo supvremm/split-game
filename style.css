@@ -1,0 +1,90 @@
+* {
+  font-family: "Kode Mono";
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#split-title {
+  position: relative;
+  bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+}
+
+#cta-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cta-vd {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    z-index: 1;
+}
+
+.play-cta:hover .cta-vd {
+    opacity: 1;
+}
+
+.cta-vh {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.play-cta:hover .cta-vh {
+    opacity: 1;
+}
+
+.play-cta {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -4rem;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.play-text {
+  color: #000;
+  text-align: center;
+  font-family: "Kode Mono";
+  font-size: 2.82488rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transition: all 0.3s ease-in-out;
+}
+
+.play-cta:hover .play-text {
+  color: #000000;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  gap: 3rem;
+}
